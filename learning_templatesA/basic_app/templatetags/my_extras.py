@@ -1,6 +1,6 @@
 from django import template
 
-register = template.Libary()
+register = template.Library()
 
 def cut(value,arg):
     """
